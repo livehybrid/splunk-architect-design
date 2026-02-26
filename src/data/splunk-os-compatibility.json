@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "matrix": [
+    {
+      "splunkVersion": "9.2.0",
+      "supportedOs": [
+        { "name": "RHEL", "minVersion": "8.0" },
+        { "name": "Ubuntu", "minVersion": "20.04" },
+        { "name": "Amazon Linux", "minVersion": "2" },
+        { "name": "Windows Server", "minVersion": "2019" }
+      ]
+    },
+    {
+      "splunkVersion": "9.1.0",
+      "supportedOs": [
+        { "name": "RHEL", "minVersion": "8.0" },
+        { "name": "Ubuntu", "minVersion": "20.04" },
+        { "name": "Amazon Linux", "minVersion": "2" },
+        { "name": "Windows Server", "minVersion": "2019" }
+      ]
+    },
+    {
+      "splunkVersion": "9.0.0",
+      "supportedOs": [
+        { "name": "RHEL", "minVersion": "8.0" },
+        { "name": "Ubuntu", "minVersion": "20.04" },
+        { "name": "Amazon Linux", "minVersion": "2" },
+        { "name": "Windows Server", "minVersion": "2016" }
+      ]
+    }
+  ]
+}

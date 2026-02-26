@@ -1,0 +1,85 @@
+.splunk-node {
+  min-width: 220px;
+  max-width: 260px;
+  border: 2px solid #4b5e7a;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 0 4px 16px rgba(21, 24, 31, 0.12);
+}
+
+.splunk-node.selected {
+  box-shadow: 0 0 0 3px rgba(247, 128, 33, 0.35);
+}
+
+.splunk-node.layer-collection {
+  border-color: #0a84ff;
+}
+
+.splunk-node.layer-indexing {
+  border-color: #2eb67d;
+}
+
+.splunk-node.layer-search {
+  border-color: #7f5af0;
+}
+
+.splunk-node.layer-management {
+  border-color: #f59e0b;
+}
+
+.splunk-node__header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.splunk-node__icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #0a0f1a;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.splunk-node__name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #101828;
+}
+
+.splunk-node__type {
+  font-size: 11px;
+  color: #4b5563;
+}
+
+.splunk-node__meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 11px;
+  color: #334155;
+}
+
+.splunk-node__compat {
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.splunk-node__compat.ok {
+  background: #eafaf0;
+  color: #136d3e;
+}
+
+.splunk-node__compat.warn {
+  background: #fff4ea;
+  color: #9a3412;
+}
